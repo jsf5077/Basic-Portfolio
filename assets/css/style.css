@@ -1,0 +1,33 @@
+Header {
+    background: #000033;
+}
+.header_title {
+
+    background: #c0c0c0;
+
+}
+
+body {
+    background: url("../images/background.png");
+    background-color: #eeeee7;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    color: aqua;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+a {
+    color: aqua;
+}
+
+p {
+    color: aqua;
+}
+.container {
+    width: 
+}
