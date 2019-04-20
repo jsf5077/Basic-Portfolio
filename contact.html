@@ -7,8 +7,6 @@
     <meta charset="UTF-8">
     <!--Page Title-->
     <title>Portfolio</title>
-    <!--Linking Fonts-->
-    <link href='https://fonts.googleapis.com/css?family=Work+Sans:700|Lato' rel='stylesheet' type='text/css'>
     <!--Linking css file-->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
@@ -23,9 +21,9 @@
        <section class="head_container">
             <h1 class="main_header">Jeff Froehlich</h1>
             <ul id="divider">
-                <li><a href="index.html">About</a></li>
-                <li><a href="Portfolio.html">Portfolio</a></li>
                 <li><a class="current">Contact</a></li>
+                <li><a href="Portfolio.html">Portfolio</a></li>
+                <li><a href="index.html">About</a></li>
             </ul>
         </section>         
     </header>
@@ -36,11 +34,22 @@
 
         <h2 class="body_title">Contact</h2>
 
-        <img src="assets/images/icon.jpg" alt="Jeff Froehlich">
+        <form>
+            
+            <label for="first_name">First Name</label>
+            <input type="text" id="first_name" name="firstname" placeholder="Your First Name...">
 
-        <p>
-            On the cusp of the 90's, a legend was born. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>    
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Email...">
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Your Message..."></textarea>
+
+            <input id="submit" type="submit" value="Submit">
+
+        </form>
+
+         
 
     </section>
 

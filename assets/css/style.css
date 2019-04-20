@@ -39,7 +39,7 @@ h1 {
     font-family: 'Georgia', Times, 'Times New Roman', Times, serif;
     font-size: 20px;
 }
-
+/*Style for headline 2*/
 h2 {
     color: #4aaaa5;
     margin: 0;
@@ -129,3 +129,37 @@ footer {
     border-top: solid #4aaaa5;
     border-top-width:7px;
 }
+
+/*Style for the contact message area*/
+textarea {
+    height: 200px;
+}
+
+/* formatting to allow the fields to be stacked vertically*/
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+/*applying font family to message area*/
+textarea {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/*syling for the submit button*/
+  #submit {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
