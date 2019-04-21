@@ -35,7 +35,7 @@ body {
 }
 
 /* Setup to fix footer to the bottom */
-.box-set {
+.footer {
     position: relative;
     height: 24.3vh;
 
@@ -169,4 +169,22 @@ textarea {
     padding: 10px;
     padding-left: 30px;
     padding-right: 30px;
+}
+  
+.block {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    left: 0;
+    top: 50%;
+    width: 240px;
+    text-align: center;
+}
+
+.image {
+    width: 240px;
+    float: left;
+}
+
+h3 {
+    padding-bottom: 20px;
 }
