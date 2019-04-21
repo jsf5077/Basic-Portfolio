@@ -14,22 +14,31 @@ body {
     background: url("../images/background.png");
     background-color: #eeeee7;
     padding: 0;
-    margin: 0 auto;  
+    margin: 0; 
 }
 
 /* Style for the footer*/
-footer {
+#foot {
     color: #ffffff;
     font-size: 12px;
     background-color: #666666;
     position: absolute;
     text-align: center;
     padding-top: 20px;
+    padding-bottom: 10px;
     left: 0;
     right: 0;
     bottom:0;
     border-top: solid #4aaaa5;
     border-top-width:7px;
+    margin-bottom: 0;
+}
+
+/* Setup to fix footer to the bottom */
+.box-set {
+    position: relative;
+    height: 24.3vh;
+
 }  
 /* container for elements in the header*/
 .head_container {
@@ -107,7 +116,6 @@ li a:hover {
 
 /* Content for the main Body*/
 .container {
-    
     background-color: #ffffff;
     border: solid #dddddd;
     border-width: 2px;
@@ -125,12 +133,14 @@ li a:hover {
     margin-bottom: 20px;
     overflow: auto;
 }
+
 /* Image headline*/
 img {
     float: left;
     padding-right: 20px;
     padding-bottom: 20px;
 }
+
 /* formatting to allow the fields to be stacked vertically*/
 input[type=text], select, textarea {
     width: 100%;
@@ -141,7 +151,7 @@ input[type=text], select, textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
-  }
+}
 
 /*applying font family and style for the message area*/
 textarea {
@@ -159,4 +169,4 @@ textarea {
     padding: 10px;
     padding-left: 30px;
     padding-right: 30px;
-  }
+}
