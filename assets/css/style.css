@@ -1,4 +1,6 @@
-
+html {
+    height: 100%;
+}
 /* Header styles /////////////////////////////////////////////////////// */
 
 /* Main Header*/
@@ -81,6 +83,7 @@ li a {
 /* Main Body*/
 body {
     position: relative;
+    min-height: 100%;
     color:  #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background: url("../images/background.png");
@@ -212,8 +215,10 @@ h3 {
 
 /* Setup to fix footer to the bottom */
 footer {
-    position: relative;
-    height: 24.3vh;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 
 }  
 
