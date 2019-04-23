@@ -1,3 +1,4 @@
+/* Establishes sizing for the whole page */
 html {
     height: 100%;
 }
@@ -164,9 +165,8 @@ textarea {
     display: flex;
   flex-wrap: wrap;
 }
-
+/* Sets the margins/spacing between the gallery images */
 .port_contain > div {
-    width: 240px;
     margin: 30px;
 }
 
@@ -188,7 +188,7 @@ h3 {
     color: #ffffff;
     width: 200px;
     position: absolute;
-    top: 180px;
+    top: 240px;
     padding: 20px;
 }
 
