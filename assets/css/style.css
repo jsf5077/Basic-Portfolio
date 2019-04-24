@@ -82,6 +82,10 @@ li a {
 /* Body styles /////////////////////////////////////////////////////// */
 
 /* Main Body*/
+p {
+    text-indent: 2.0em;
+    line-height: 25px;
+}
 body {
     position: relative;
     min-height: 100%;
@@ -128,6 +132,7 @@ h2 {
     max-width: 960px;
     overflow: auto;
     margin: 0 auto;
+    margin-bottom: 40px;
 }
 
 /* formatting to allow the fields to be stacked vertically*/
@@ -159,7 +164,7 @@ textarea {
     padding-left: 30px;
     padding-right: 30px;
 }
-
+/* portfolio gallery////////// */
 /* Overall container for the image gallery used for layout using purposes. Accomplished using flex properties */
 .port_contain {
     display: flex;
@@ -220,5 +225,18 @@ footer {
     bottom: 0;
     width: 100%;
 
-}  
+}
+.skyline {
+    position: absolute;
+    left: 0;
+    bottom: 60px;
+    width: 15%;
+}
+.blu {
+    position: fixed;
+    right: 6px;
+    top: 70px;
+    width: 9%;
+    image-rendering: crisp-edges;
+}
 
